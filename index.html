@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rubik's Cube Solver</title>
+  <style>
+    body { font-family: Arial; text-align: center; background-color: #f4f4f4; padding: 20px; }
+    button { padding: 10px 20px; margin: 10px; }
+    #stepsDisplay { font-size: 18px; margin-top: 20px; color: #007700; }
+  </style>
+</head>
+<body>
+
+  <h1>Rubik's Cube Solver (Beginner’s Method)</h1>
+  <button onclick="cube.scramble(); updateDisplay();">Scramble</button>
+  <button onclick="cube.solve();">Solve</button>
+
+  <div id="cubeDisplay"></div>
+  <div id="stepsDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -69,3 +69,4 @@ This simulates a real Rubik's Cube face turn.
 ## Credits
 
 This project was developed as part of a fresher/intern-level programming challenge to demonstrate understanding of algorithms, OOP in JavaScript, and DOM-based visualization.
+...............................................
